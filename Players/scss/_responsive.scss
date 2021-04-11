@@ -1,0 +1,137 @@
+@media all and (max-width: 1200px){
+    #logoJ {
+        position: relative;
+        top: 16px;
+    }
+}
+
+@media all and (max-width: 1040px){
+    main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+        width: 31%;
+    }
+
+}
+
+@media all and (min-width: 1001px) {
+        main #players #mainPlayers .cardPl:hover, main #players #substitutions .cardPl:hover {
+            transform: scale(1.2);
+        }
+}
+
+@media all and (max-width: 1000px){
+    #logoJ {
+        top: 35px;
+    }
+}
+
+@media all and (max-width: 900px){
+    main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+        width: 27%;
+        margin: 25px;
+    }
+}
+
+@media all and (max-width: 850px){
+    #logoJ {
+        top: 55px;
+    }
+}
+
+@media all and (max-width: 830px){
+    main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+        margin-right: 10px;
+
+         p {
+            font-size: 90%;
+        }
+    }
+
+    main .scrollUp .arrow {
+        width: 4%;
+    }
+}
+
+@media all and (max-width: 750px){
+    #logoJ {
+        top: 50px;
+        width: 120%;
+    }
+}
+
+@media all and (max-width: 700px){
+    main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+        width: 40%;
+        margin: 25px;
+    }
+}
+
+@media all and (max-width: 650px){
+    header #linkJ #logoJ {
+        top: 70px;
+        width: 120%;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 600px){
+    #logoJ {
+        top: 63px;
+        width: 130%;
+    }
+     main .scrollUp .arrow {
+        width: 5%;
+    }
+}
+
+@media all and (max-width: 540px){
+    main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+        width: 90%;
+
+        p {
+            font-size: 100%;
+        }
+    }
+}
+
+@media all and(max-width: 502px){
+    header #linkJ #logoJ {
+        top: 70px;
+        width: 140%;
+    }
+    main .scrollUp .arrow {
+        width: 7%;
+    }
+}
+
+
+@media all and(max-width: 425px){
+    header #linkJ #logoJ {
+        top: 80px;
+    }
+    main .nameClub{
+        font-size: 70px;
+    }
+}
+
+@media all and(max-width: 375px){
+    header #linkJ #logoJ {
+        top: 85px;
+        width: 145%;
+    }
+    main .nameClub{
+        font-size: 60px;
+    }
+}
+
+@media all and(max-width: 325px){
+    #logoJ{
+        top: 90px;
+        width: 140%;
+    }
+    #NameClub{
+        font-size: 50px;
+    }
+}

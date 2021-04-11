@@ -1,0 +1,97 @@
+main {
+    padding: 50px 10px;
+    background-color: #333333;
+    width: 100%;
+    margin: auto;
+
+    .nameClub {
+        text-align: center;
+        font-weight: 100;
+        font-size: 80px;
+        margin: 20px auto;
+        font-style: italic;
+        padding: 10px 0px;
+        color: #fff;
+    }
+
+    #players {
+        max-width: 1100px;
+        margin: auto;
+        width: 100%;
+
+        #mainPlayers, #substitutions {
+            display: flex;
+            flex-wrap: wrap;
+
+            .cardPl {
+                width: 23%;
+                padding: 15px;
+                border-style: groove;
+                margin: 10px;
+                border-width: thick;
+                background-color: whitesmoke;
+                box-shadow: 0px 0px 12px 5px $grey;
+                border-radius: 10px;
+
+                .imgPl {
+                    background-color: $lightgrey;
+                    margin-bottom: 10px;
+                    background-repeat: no-repeat;
+                    background-size: 59%;
+                    background-position: center;
+                    border-radius: 45px;
+
+                    .imgPlayer {
+                        width: 70%;
+                        display: block;
+                        margin: auto;
+                    }
+                }
+
+
+
+                .dataPl {
+                    line-height: 1.5;
+                    font-weight: 600;
+                    color: $grey;
+                }
+            }
+        }
+
+        #textForChanges {
+            max-width: 800px;
+            width: 100%;
+            margin: 25px auto;
+            padding: 25px 10px;
+            background-color: transparent;
+
+            .wordCh {
+                background-color: $lightgrey;
+                font-size: 30px;
+                text-align: center;
+                border-radius: 5px;
+                padding: 3px;
+            }
+        }
+    }
+
+    .scrollUp {
+        display: block;
+
+        .arrow {
+            width: 3%;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: repeating-linear-gradient(45deg, #00000094, transparent 16px);
+            border-radius: 20%;
+            cursor: pointer;
+        }
+    }
+}
+
+span {
+    color: red;
+    width: 80px;
+    display: inline-block;
+}

@@ -1,0 +1,40 @@
+header{
+	background-color: #fff;
+    background-size: 131%;
+    background-position: center;
+    border-bottom-style: groove;
+    max-height: 180px;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+        #linkJ {
+            width: 10%;
+
+            #logoJ {
+                width: 100%;
+                margin: 20px;
+            }
+    }
+    
+        #audioLink {
+        align-self: flex-end;
+        padding: 20px;
+
+            button {
+            padding: 6px;
+            border-style: outset;
+            border-radius: 10px;
+            cursor: pointer;
+            outline-style: none;
+            width: 60px;
+            float: right;
+            margin-top: 100px;
+            margin-right: 50px;
+            background: green;
+            color: #fff;
+        }
+    }
+}

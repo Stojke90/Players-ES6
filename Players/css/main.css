@@ -1,0 +1,214 @@
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
+body {
+  max-width: 1360px;
+  width: 100%;
+  margin: auto; }
+
+/*HEADER*/
+header {
+  background-color: #fff;
+  background-size: 131%;
+  background-position: center;
+  border-bottom-style: groove;
+  max-height: 180px;
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  width: 100%; }
+  header #linkJ {
+    width: 10%; }
+    header #linkJ #logoJ {
+      width: 100%;
+      margin: 20px; }
+  header #audioLink {
+    align-self: flex-end;
+    padding: 20px; }
+    header #audioLink button {
+      padding: 6px;
+      border-style: outset;
+      border-radius: 10px;
+      cursor: pointer;
+      outline-style: none;
+      width: 60px;
+      float: right;
+      margin-top: 100px;
+      margin-right: 50px;
+      background: green;
+      color: #fff; }
+
+/* END HEADER*/
+/* MAIN */
+main {
+  padding: 50px 10px;
+  background-color: #333333;
+  width: 100%;
+  margin: auto; }
+  main .nameClub {
+    text-align: center;
+    font-weight: 100;
+    font-size: 80px;
+    margin: 20px auto;
+    font-style: italic;
+    padding: 10px 0px;
+    color: #fff; }
+  main #players {
+    max-width: 1100px;
+    margin: auto;
+    width: 100%; }
+    main #players #mainPlayers, main #players #substitutions {
+      display: flex;
+      flex-wrap: wrap; }
+      main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+        width: 23%;
+        padding: 15px;
+        border-style: groove;
+        margin: 10px;
+        border-width: thick;
+        background-color: whitesmoke;
+        box-shadow: 0px 0px 12px 5px grey;
+        border-radius: 10px; }
+        main #players #mainPlayers .cardPl .imgPl, main #players #substitutions .cardPl .imgPl {
+          background-color: lightgrey;
+          margin-bottom: 10px;
+          background-repeat: no-repeat;
+          background-size: 59%;
+          background-position: center;
+          border-radius: 45px; }
+          main #players #mainPlayers .cardPl .imgPl .imgPlayer, main #players #substitutions .cardPl .imgPl .imgPlayer {
+            width: 70%;
+            display: block;
+            margin: auto; }
+        main #players #mainPlayers .cardPl .dataPl, main #players #substitutions .cardPl .dataPl {
+          line-height: 1.5;
+          font-weight: 600;
+          color: grey; }
+    main #players #textForChanges {
+      max-width: 800px;
+      width: 100%;
+      margin: 25px auto;
+      padding: 25px 10px;
+      background-color: transparent; }
+      main #players #textForChanges .wordCh {
+        background-color: lightgrey;
+        font-size: 30px;
+        text-align: center;
+        border-radius: 5px;
+        padding: 3px; }
+  main .scrollUp {
+    display: block; }
+    main .scrollUp .arrow {
+      width: 3%;
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      background: repeating-linear-gradient(45deg, #00000094, transparent 16px);
+      border-radius: 20%;
+      cursor: pointer; }
+
+span {
+  color: red;
+  width: 80px;
+  display: inline-block; }
+
+/* END MAIN */
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  background-color: lightgrey;
+  font-size: 20px; }
+
+/* END FOOTER */
+/*  RESPONSIVE  */
+@media all and (max-width: 1200px) {
+  #logoJ {
+    position: relative;
+    top: 16px; } }
+@media all and (max-width: 1040px) {
+  main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+    width: 31%; } }
+@media all and (min-width: 1001px) {
+  main #players #mainPlayers .cardPl:hover, main #players #substitutions .cardPl:hover {
+    transform: scale(1.2); } }
+@media all and (max-width: 1000px) {
+  #logoJ {
+    top: 35px; } }
+@media all and (max-width: 900px) {
+  main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+    width: 27%;
+    margin: 25px; } }
+@media all and (max-width: 850px) {
+  #logoJ {
+    top: 55px; } }
+@media all and (max-width: 830px) {
+  main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+    margin-right: 10px; }
+    main #players #mainPlayers .cardPl p, main #players #substitutions .cardPl p {
+      font-size: 90%; }
+
+  main .scrollUp .arrow {
+    width: 4%; } }
+@media all and (max-width: 750px) {
+  #logoJ {
+    top: 50px;
+    width: 120%; } }
+@media all and (max-width: 700px) {
+  main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+    width: 40%;
+    margin: 25px; } }
+@media all and (max-width: 650px) {
+  header #linkJ #logoJ {
+    top: 70px;
+    width: 120%; }
+
+  footer p {
+    font-size: 16px; } }
+@media all and (max-width: 600px) {
+  #logoJ {
+    top: 63px;
+    width: 130%; }
+
+  main .scrollUp .arrow {
+    width: 5%; } }
+@media all and (max-width: 540px) {
+  main #players #mainPlayers .cardPl, main #players #substitutions .cardPl {
+    width: 90%; }
+    main #players #mainPlayers .cardPl p, main #players #substitutions .cardPl p {
+      font-size: 100%; } }
+@media all and (max-width: 502px) {
+  header #linkJ #logoJ {
+    top: 70px;
+    width: 140%; }
+
+  main .scrollUp .arrow {
+    width: 7%; } }
+@media all and (max-width: 425px) {
+  header #linkJ #logoJ {
+    top: 80px; }
+
+  main .nameClub {
+    font-size: 70px; } }
+@media all and (max-width: 375px) {
+  header #linkJ #logoJ {
+    top: 85px;
+    width: 145%; }
+
+  main .nameClub {
+    font-size: 60px; } }
+@media all and (max-width: 325px) {
+  #logoJ {
+    top: 90px;
+    width: 140%; }
+
+  #NameClub {
+    font-size: 50px; } }
+
+/*# sourceMappingURL=main.css.map */
